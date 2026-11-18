@@ -1,0 +1,1031 @@
+{
+ "sections": [
+  {
+   "ticker": "AAPL",
+   "filing_date": "2026-11-03",
+   "section": "business",
+   "chars": 20797
+  },
+  {
+   "ticker": "AAPL",
+   "filing_date": "2026-11-03",
+   "section": "risk_factors",
+   "chars": 86691
+  },
+  {
+   "ticker": "AAPL",
+   "filing_date": "2026-11-03",
+   "section": "mda",
+   "chars": 17630
+  },
+  {
+   "ticker": "AAPL",
+   "filing_date": "2025-10-31",
+   "section": "business",
+   "chars": 16051
+  },
+  {
+   "ticker": "AAPL",
+   "filing_date": "2025-10-31",
+   "section": "risk_factors",
+   "chars": 68160
+  },
+  {
+   "ticker": "AAPL",
+   "filing_date": "2025-10-31",
+   "section": "mda",
+   "chars": 18015
+  },
+  {
+   "ticker": "MSFT",
+   "filing_date": "2026-07-29",
+   "section": "business",
+   "chars": 41186
+  },
+  {
+   "ticker": "MSFT",
+   "filing_date": "2026-07-29",
+   "section": "risk_factors",
+   "chars": 81052
+  },
+  {
+   "ticker": "MSFT",
+   "filing_date": "2026-07-29",
+   "section": "mda",
+   "chars": 51925
+  },
+  {
+   "ticker": "MSFT",
+   "filing_date": "2025-07-30",
+   "section": "business",
+   "chars": 48691
+  },
+  {
+   "ticker": "MSFT",
+   "filing_date": "2025-07-30",
+   "section": "risk_factors",
+   "chars": 68811
+  },
+  {
+   "ticker": "MSFT",
+   "filing_date": "2025-07-30",
+   "section": "mda",
+   "chars": 48405
+  },
+  {
+   "ticker": "NVDA",
+   "filing_date": "2026-02-25",
+   "section": "business",
+   "chars": 48216
+  },
+  {
+   "ticker": "NVDA",
+   "filing_date": "2026-02-25",
+   "section": "risk_factors",
+   "chars": 114755
+  },
+  {
+   "ticker": "NVDA",
+   "filing_date": "2026-02-25",
+   "section": "mda",
+   "chars": 34149
+  },
+  {
+   "ticker": "NVDA",
+   "filing_date": "2025-02-26",
+   "section": "business",
+   "chars": 54769
+  },
+  {
+   "ticker": "NVDA",
+   "filing_date": "2025-02-26",
+   "section": "risk_factors",
+   "chars": 110731
+  },
+  {
+   "ticker": "NVDA",
+   "filing_date": "2025-02-26",
+   "section": "mda",
+   "chars": 37756
+  },
+  {
+   "ticker": "AMZN",
+   "filing_date": "2026-02-06",
+   "section": "business",
+   "chars": 13496
+  },
+  {
+   "ticker": "AMZN",
+   "filing_date": "2026-02-06",
+   "section": "risk_factors",
+   "chars": 60651
+  },
+  {
+   "ticker": "AMZN",
+   "filing_date": "2026-02-06",
+   "section": "mda",
+   "chars": 46283
+  },
+  {
+   "ticker": "AMZN",
+   "filing_date": "2025-02-07",
+   "section": "business",
+   "chars": 13187
+  },
+  {
+   "ticker": "AMZN",
+   "filing_date": "2025-02-07",
+   "section": "risk_factors",
+   "chars": 59380
+  },
+  {
+   "ticker": "AMZN",
+   "filing_date": "2025-02-07",
+   "section": "mda",
+   "chars": 48482
+  },
+  {
+   "ticker": "GOOGL",
+   "filing_date": "2026-02-05",
+   "section": "business",
+   "chars": 23827
+  },
+  {
+   "ticker": "GOOGL",
+   "filing_date": "2026-02-05",
+   "section": "risk_factors",
+   "chars": 85283
+  },
+  {
+   "ticker": "GOOGL",
+   "filing_date": "2026-02-05",
+   "section": "mda",
+   "chars": 52513
+  },
+  {
+   "ticker": "GOOGL",
+   "filing_date": "2025-02-05",
+   "section": "business",
+   "chars": 30718
+  },
+  {
+   "ticker": "GOOGL",
+   "filing_date": "2025-02-05",
+   "section": "risk_factors",
+   "chars": 83404
+  },
+  {
+   "ticker": "GOOGL",
+   "filing_date": "2025-02-05",
+   "section": "mda",
+   "chars": 58002
+  },
+  {
+   "ticker": "META",
+   "filing_date": "2026-01-29",
+   "section": "business",
+   "chars": 24546
+  },
+  {
+   "ticker": "META",
+   "filing_date": "2026-01-29",
+   "section": "risk_factors",
+   "chars": 195513
+  },
+  {
+   "ticker": "META",
+   "filing_date": "2026-01-29",
+   "section": "mda",
+   "chars": 60319
+  },
+  {
+   "ticker": "META",
+   "filing_date": "2025-01-30",
+   "section": "business",
+   "chars": 40273
+  },
+  {
+   "ticker": "META",
+   "filing_date": "2025-01-30",
+   "section": "risk_factors",
+   "chars": 188466
+  },
+  {
+   "ticker": "META",
+   "filing_date": "2025-01-30",
+   "section": "mda",
+   "chars": 61016
+  },
+  {
+   "ticker": "TSLA",
+   "filing_date": "2026-01-29",
+   "section": "business",
+   "chars": 45453
+  },
+  {
+   "ticker": "TSLA",
+   "filing_date": "2026-01-29",
+   "section": "risk_factors",
+   "chars": 83656
+  },
+  {
+   "ticker": "TSLA",
+   "filing_date": "2026-01-29",
+   "section": "mda",
+   "chars": 55401
+  },
+  {
+   "ticker": "JPM",
+   "filing_date": "2026-02-13",
+   "section": "business",
+   "chars": 39219
+  },
+  {
+   "ticker": "JPM",
+   "filing_date": "2026-02-13",
+   "section": "risk_factors",
+   "chars": 112855
+  },
+  {
+   "ticker": "JPM",
+   "filing_date": "2026-02-13",
+   "section": "mda",
+   "chars": 414305
+  },
+  {
+   "ticker": "JPM",
+   "filing_date": "2025-02-14",
+   "section": "business",
+   "chars": 40551
+  },
+  {
+   "ticker": "JPM",
+   "filing_date": "2025-02-14",
+   "section": "risk_factors",
+   "chars": 136514
+  },
+  {
+   "ticker": "JPM",
+   "filing_date": "2025-02-14",
+   "section": "mda",
+   "chars": 431590
+  },
+  {
+   "ticker": "BAC",
+   "filing_date": "2026-02-25",
+   "section": "business",
+   "chars": 38054
+  },
+  {
+   "ticker": "BAC",
+   "filing_date": "2026-02-25",
+   "section": "risk_factors",
+   "chars": 117121
+  },
+  {
+   "ticker": "BAC",
+   "filing_date": "2026-02-25",
+   "section": "mda",
+   "chars": 294259
+  },
+  {
+   "ticker": "BAC",
+   "filing_date": "2025-02-25",
+   "section": "business",
+   "chars": 37639
+  },
+  {
+   "ticker": "BAC",
+   "filing_date": "2025-02-25",
+   "section": "risk_factors",
+   "chars": 117185
+  },
+  {
+   "ticker": "BAC",
+   "filing_date": "2025-02-25",
+   "section": "mda",
+   "chars": 292423
+  },
+  {
+   "ticker": "WFC",
+   "filing_date": "2026-02-24",
+   "section": "business",
+   "chars": 45899
+  },
+  {
+   "ticker": "WFC",
+   "filing_date": "2025-02-25",
+   "section": "business",
+   "chars": 46519
+  },
+  {
+   "ticker": "GS",
+   "filing_date": "2026-02-25",
+   "section": "business",
+   "chars": 152440
+  },
+  {
+   "ticker": "GS",
+   "filing_date": "2026-02-25",
+   "section": "risk_factors",
+   "chars": 142137
+  },
+  {
+   "ticker": "GS",
+   "filing_date": "2026-02-25",
+   "section": "mda",
+   "chars": 310308
+  },
+  {
+   "ticker": "GS",
+   "filing_date": "2025-02-27",
+   "section": "business",
+   "chars": 153618
+  },
+  {
+   "ticker": "GS",
+   "filing_date": "2025-02-27",
+   "section": "risk_factors",
+   "chars": 144555
+  },
+  {
+   "ticker": "GS",
+   "filing_date": "2025-02-27",
+   "section": "mda",
+   "chars": 294855
+  },
+  {
+   "ticker": "V",
+   "filing_date": "2026-11-05",
+   "section": "business",
+   "chars": 79178
+  },
+  {
+   "ticker": "V",
+   "filing_date": "2026-11-05",
+   "section": "risk_factors",
+   "chars": 68394
+  },
+  {
+   "ticker": "V",
+   "filing_date": "2026-11-05",
+   "section": "mda",
+   "chars": 49782
+  },
+  {
+   "ticker": "V",
+   "filing_date": "2025-11-06",
+   "section": "business",
+   "chars": 73418
+  },
+  {
+   "ticker": "V",
+   "filing_date": "2025-11-06",
+   "section": "risk_factors",
+   "chars": 82118
+  },
+  {
+   "ticker": "V",
+   "filing_date": "2025-11-06",
+   "section": "mda",
+   "chars": 47949
+  },
+  {
+   "ticker": "MA",
+   "filing_date": "2026-02-11",
+   "section": "business",
+   "chars": 85350
+  },
+  {
+   "ticker": "MA",
+   "filing_date": "2026-02-11",
+   "section": "risk_factors",
+   "chars": 83395
+  },
+  {
+   "ticker": "MA",
+   "filing_date": "2026-02-11",
+   "section": "mda",
+   "chars": 49720
+  },
+  {
+   "ticker": "MA",
+   "filing_date": "2025-02-12",
+   "section": "business",
+   "chars": 80384
+  },
+  {
+   "ticker": "MA",
+   "filing_date": "2025-02-12",
+   "section": "risk_factors",
+   "chars": 81857
+  },
+  {
+   "ticker": "MA",
+   "filing_date": "2025-02-12",
+   "section": "mda",
+   "chars": 51860
+  },
+  {
+   "ticker": "JNJ",
+   "filing_date": "2026-02-11",
+   "section": "business",
+   "chars": 34642
+  },
+  {
+   "ticker": "JNJ",
+   "filing_date": "2026-02-11",
+   "section": "risk_factors",
+   "chars": 43439
+  },
+  {
+   "ticker": "JNJ",
+   "filing_date": "2026-02-11",
+   "section": "mda",
+   "chars": 65891
+  },
+  {
+   "ticker": "JNJ",
+   "filing_date": "2025-02-13",
+   "section": "business",
+   "chars": 32187
+  },
+  {
+   "ticker": "JNJ",
+   "filing_date": "2025-02-13",
+   "section": "risk_factors",
+   "chars": 41353
+  },
+  {
+   "ticker": "JNJ",
+   "filing_date": "2025-02-13",
+   "section": "mda",
+   "chars": 67483
+  },
+  {
+   "ticker": "PFE",
+   "filing_date": "2026-02-26",
+   "section": "business",
+   "chars": 92075
+  },
+  {
+   "ticker": "PFE",
+   "filing_date": "2026-02-26",
+   "section": "risk_factors",
+   "chars": 87507
+  },
+  {
+   "ticker": "PFE",
+   "filing_date": "2026-02-26",
+   "section": "mda",
+   "chars": 105578
+  },
+  {
+   "ticker": "PFE",
+   "filing_date": "2025-02-27",
+   "section": "business",
+   "chars": 88659
+  },
+  {
+   "ticker": "PFE",
+   "filing_date": "2025-02-27",
+   "section": "risk_factors",
+   "chars": 79097
+  },
+  {
+   "ticker": "PFE",
+   "filing_date": "2025-02-27",
+   "section": "mda",
+   "chars": 105343
+  },
+  {
+   "ticker": "MRK",
+   "filing_date": "2026-02-24",
+   "section": "business",
+   "chars": 125404
+  },
+  {
+   "ticker": "MRK",
+   "filing_date": "2026-02-24",
+   "section": "risk_factors",
+   "chars": 77239
+  },
+  {
+   "ticker": "MRK",
+   "filing_date": "2026-02-24",
+   "section": "mda",
+   "chars": 140619
+  },
+  {
+   "ticker": "MRK",
+   "filing_date": "2025-02-25",
+   "section": "business",
+   "chars": 119867
+  },
+  {
+   "ticker": "MRK",
+   "filing_date": "2025-02-25",
+   "section": "risk_factors",
+   "chars": 74271
+  },
+  {
+   "ticker": "MRK",
+   "filing_date": "2025-02-25",
+   "section": "mda",
+   "chars": 134124
+  },
+  {
+   "ticker": "UNH",
+   "filing_date": "2026-03-02",
+   "section": "business",
+   "chars": 46838
+  },
+  {
+   "ticker": "UNH",
+   "filing_date": "2026-03-02",
+   "section": "risk_factors",
+   "chars": 66884
+  },
+  {
+   "ticker": "UNH",
+   "filing_date": "2026-03-02",
+   "section": "mda",
+   "chars": 48696
+  },
+  {
+   "ticker": "UNH",
+   "filing_date": "2025-02-27",
+   "section": "business",
+   "chars": 46914
+  },
+  {
+   "ticker": "UNH",
+   "filing_date": "2025-02-27",
+   "section": "risk_factors",
+   "chars": 65701
+  },
+  {
+   "ticker": "UNH",
+   "filing_date": "2025-02-27",
+   "section": "mda",
+   "chars": 44570
+  },
+  {
+   "ticker": "XOM",
+   "filing_date": "2026-02-18",
+   "section": "business",
+   "chars": 6628
+  },
+  {
+   "ticker": "XOM",
+   "filing_date": "2026-02-18",
+   "section": "risk_factors",
+   "chars": 35635
+  },
+  {
+   "ticker": "XOM",
+   "filing_date": "2026-02-18",
+   "section": "mda",
+   "chars": 130335
+  },
+  {
+   "ticker": "XOM",
+   "filing_date": "2025-02-19",
+   "section": "business",
+   "chars": 7208
+  },
+  {
+   "ticker": "XOM",
+   "filing_date": "2025-02-19",
+   "section": "risk_factors",
+   "chars": 32356
+  },
+  {
+   "ticker": "XOM",
+   "filing_date": "2025-02-19",
+   "section": "mda",
+   "chars": 159023
+  },
+  {
+   "ticker": "CVX",
+   "filing_date": "2026-02-24",
+   "section": "business",
+   "chars": 77924
+  },
+  {
+   "ticker": "CVX",
+   "filing_date": "2026-02-24",
+   "section": "risk_factors",
+   "chars": 34551
+  },
+  {
+   "ticker": "CVX",
+   "filing_date": "2026-02-24",
+   "section": "mda",
+   "chars": 125351
+  },
+  {
+   "ticker": "CVX",
+   "filing_date": "2025-02-21",
+   "section": "business",
+   "chars": 75072
+  },
+  {
+   "ticker": "CVX",
+   "filing_date": "2025-02-21",
+   "section": "risk_factors",
+   "chars": 37682
+  },
+  {
+   "ticker": "CVX",
+   "filing_date": "2025-02-21",
+   "section": "mda",
+   "chars": 123124
+  },
+  {
+   "ticker": "KO",
+   "filing_date": "2026-02-20",
+   "section": "business",
+   "chars": 55357
+  },
+  {
+   "ticker": "KO",
+   "filing_date": "2026-02-20",
+   "section": "risk_factors",
+   "chars": 92458
+  },
+  {
+   "ticker": "KO",
+   "filing_date": "2026-02-20",
+   "section": "mda",
+   "chars": 109907
+  },
+  {
+   "ticker": "KO",
+   "filing_date": "2025-02-20",
+   "section": "business",
+   "chars": 54958
+  },
+  {
+   "ticker": "KO",
+   "filing_date": "2025-02-20",
+   "section": "risk_factors",
+   "chars": 90866
+  },
+  {
+   "ticker": "KO",
+   "filing_date": "2025-02-20",
+   "section": "mda",
+   "chars": 114786
+  },
+  {
+   "ticker": "PEP",
+   "filing_date": "2026-02-03",
+   "section": "business",
+   "chars": 35614
+  },
+  {
+   "ticker": "PEP",
+   "filing_date": "2026-02-03",
+   "section": "risk_factors",
+   "chars": 65987
+  },
+  {
+   "ticker": "PEP",
+   "filing_date": "2026-02-03",
+   "section": "mda",
+   "chars": 239749
+  },
+  {
+   "ticker": "PEP",
+   "filing_date": "2025-02-04",
+   "section": "business",
+   "chars": 39746
+  },
+  {
+   "ticker": "PEP",
+   "filing_date": "2025-02-04",
+   "section": "risk_factors",
+   "chars": 63911
+  },
+  {
+   "ticker": "PEP",
+   "filing_date": "2025-02-04",
+   "section": "mda",
+   "chars": 253236
+  },
+  {
+   "ticker": "WMT",
+   "filing_date": "2026-03-13",
+   "section": "business",
+   "chars": 37555
+  },
+  {
+   "ticker": "WMT",
+   "filing_date": "2026-03-13",
+   "section": "risk_factors",
+   "chars": 93314
+  },
+  {
+   "ticker": "WMT",
+   "filing_date": "2026-03-13",
+   "section": "mda",
+   "chars": 58156
+  },
+  {
+   "ticker": "WMT",
+   "filing_date": "2025-03-14",
+   "section": "business",
+   "chars": 40147
+  },
+  {
+   "ticker": "WMT",
+   "filing_date": "2025-03-14",
+   "section": "risk_factors",
+   "chars": 97642
+  },
+  {
+   "ticker": "WMT",
+   "filing_date": "2025-03-14",
+   "section": "mda",
+   "chars": 59096
+  },
+  {
+   "ticker": "COST",
+   "filing_date": "2026-10-07",
+   "section": "business",
+   "chars": 19638
+  },
+  {
+   "ticker": "COST",
+   "filing_date": "2026-10-07",
+   "section": "risk_factors",
+   "chars": 44407
+  },
+  {
+   "ticker": "COST",
+   "filing_date": "2026-10-07",
+   "section": "mda",
+   "chars": 28601
+  },
+  {
+   "ticker": "COST",
+   "filing_date": "2025-10-08",
+   "section": "business",
+   "chars": 20697
+  },
+  {
+   "ticker": "COST",
+   "filing_date": "2025-10-08",
+   "section": "risk_factors",
+   "chars": 42422
+  },
+  {
+   "ticker": "COST",
+   "filing_date": "2025-10-08",
+   "section": "mda",
+   "chars": 27021
+  },
+  {
+   "ticker": "HD",
+   "filing_date": "2026-03-18",
+   "section": "business",
+   "chars": 42766
+  },
+  {
+   "ticker": "HD",
+   "filing_date": "2026-03-18",
+   "section": "risk_factors",
+   "chars": 75207
+  },
+  {
+   "ticker": "HD",
+   "filing_date": "2026-03-18",
+   "section": "mda",
+   "chars": 31266
+  },
+  {
+   "ticker": "HD",
+   "filing_date": "2025-03-21",
+   "section": "business",
+   "chars": 39922
+  },
+  {
+   "ticker": "HD",
+   "filing_date": "2025-03-21",
+   "section": "risk_factors",
+   "chars": 72474
+  },
+  {
+   "ticker": "HD",
+   "filing_date": "2025-03-21",
+   "section": "mda",
+   "chars": 31212
+  },
+  {
+   "ticker": "DIS",
+   "filing_date": "2026-11-17",
+   "section": "business",
+   "chars": 64444
+  },
+  {
+   "ticker": "DIS",
+   "filing_date": "2026-11-17",
+   "section": "risk_factors",
+   "chars": 64683
+  },
+  {
+   "ticker": "DIS",
+   "filing_date": "2026-11-17",
+   "section": "mda",
+   "chars": 63920
+  },
+  {
+   "ticker": "DIS",
+   "filing_date": "2025-11-13",
+   "section": "business",
+   "chars": 66747
+  },
+  {
+   "ticker": "DIS",
+   "filing_date": "2025-11-13",
+   "section": "risk_factors",
+   "chars": 62762
+  },
+  {
+   "ticker": "DIS",
+   "filing_date": "2025-11-13",
+   "section": "mda",
+   "chars": 78619
+  },
+  {
+   "ticker": "NFLX",
+   "filing_date": "2026-01-23",
+   "section": "business",
+   "chars": 9133
+  },
+  {
+   "ticker": "NFLX",
+   "filing_date": "2026-01-23",
+   "section": "risk_factors",
+   "chars": 75038
+  },
+  {
+   "ticker": "NFLX",
+   "filing_date": "2026-01-23",
+   "section": "mda",
+   "chars": 37347
+  },
+  {
+   "ticker": "NFLX",
+   "filing_date": "2025-01-27",
+   "section": "business",
+   "chars": 10636
+  },
+  {
+   "ticker": "NFLX",
+   "filing_date": "2025-01-27",
+   "section": "risk_factors",
+   "chars": 70135
+  },
+  {
+   "ticker": "NFLX",
+   "filing_date": "2025-01-27",
+   "section": "mda",
+   "chars": 33588
+  },
+  {
+   "ticker": "INTC",
+   "filing_date": "2026-01-23",
+   "section": "business",
+   "chars": 3650
+  },
+  {
+   "ticker": "INTC",
+   "filing_date": "2026-01-23",
+   "section": "risk_factors",
+   "chars": 104868
+  },
+  {
+   "ticker": "INTC",
+   "filing_date": "2025-01-31",
+   "section": "business",
+   "chars": 2148
+  },
+  {
+   "ticker": "INTC",
+   "filing_date": "2025-01-31",
+   "section": "risk_factors",
+   "chars": 114998
+  },
+  {
+   "ticker": "CSCO",
+   "filing_date": "2026-09-02",
+   "section": "business",
+   "chars": 51164
+  },
+  {
+   "ticker": "CSCO",
+   "filing_date": "2026-09-02",
+   "section": "risk_factors",
+   "chars": 89661
+  },
+  {
+   "ticker": "CSCO",
+   "filing_date": "2026-09-02",
+   "section": "mda",
+   "chars": 69686
+  },
+  {
+   "ticker": "CSCO",
+   "filing_date": "2025-09-03",
+   "section": "business",
+   "chars": 48007
+  },
+  {
+   "ticker": "CSCO",
+   "filing_date": "2025-09-03",
+   "section": "risk_factors",
+   "chars": 89490
+  },
+  {
+   "ticker": "CSCO",
+   "filing_date": "2025-09-03",
+   "section": "mda",
+   "chars": 70463
+  },
+  {
+   "ticker": "BA",
+   "filing_date": "2026-01-30",
+   "section": "business",
+   "chars": 18357
+  },
+  {
+   "ticker": "BA",
+   "filing_date": "2026-01-30",
+   "section": "risk_factors",
+   "chars": 57139
+  },
+  {
+   "ticker": "BA",
+   "filing_date": "2026-01-30",
+   "section": "mda",
+   "chars": 89626
+  },
+  {
+   "ticker": "BA",
+   "filing_date": "2025-02-03",
+   "section": "business",
+   "chars": 17775
+  },
+  {
+   "ticker": "BA",
+   "filing_date": "2025-02-03",
+   "section": "risk_factors",
+   "chars": 58145
+  },
+  {
+   "ticker": "BA",
+   "filing_date": "2025-02-03",
+   "section": "mda",
+   "chars": 89593
+  },
+  {
+   "ticker": "CAT",
+   "filing_date": "2026-02-13",
+   "section": "business",
+   "chars": 39227
+  },
+  {
+   "ticker": "CAT",
+   "filing_date": "2026-02-13",
+   "section": "risk_factors",
+   "chars": 53379
+  },
+  {
+   "ticker": "CAT",
+   "filing_date": "2026-02-13",
+   "section": "mda",
+   "chars": 102745
+  },
+  {
+   "ticker": "CAT",
+   "filing_date": "2025-02-14",
+   "section": "business",
+   "chars": 39131
+  },
+  {
+   "ticker": "CAT",
+   "filing_date": "2025-02-14",
+   "section": "risk_factors",
+   "chars": 53398
+  },
+  {
+   "ticker": "CAT",
+   "filing_date": "2025-02-14",
+   "section": "mda",
+   "chars": 102077
+  }
+ ],
+ "total_chars": 13252617
+}

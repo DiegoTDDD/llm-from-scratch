@@ -1,0 +1,49 @@
+{
+  "corpus_chars": 13252617,
+  "tokens": 3091783,
+  "chars_per_token": 4.286,
+  "vocab_size": 4096,
+  "tokenizer_train_seconds": 2.6,
+  "parameters": 4273664,
+  "model": {
+    "vocab_size": 4096,
+    "context_length": 256,
+    "n_layer": 4,
+    "n_head": 4,
+    "d_model": 256,
+    "dropout": 0.1
+  },
+  "training": {
+    "steps": 60,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "min_learning_rate": 0.0001,
+    "warmup_steps": 100,
+    "weight_decay": 0.1,
+    "grad_clip": 1.0,
+    "eval_every": 100,
+    "eval_batches": 20,
+    "max_minutes": 5.0,
+    "seed": 42
+  },
+  "steps_run": 60,
+  "tokens_seen": 491520,
+  "train_seconds": 149.0,
+  "best_step": 60,
+  "best_val_loss": 6.4165,
+  "best_val_perplexity": 611.87,
+  "val_bits_per_char": 2.1596,
+  "unigram_val_loss": 6.73,
+  "unigram_val_perplexity": 837.11,
+  "torch": "2.9.1+cpu",
+  "threads": 2,
+  "history": [
+    {
+      "step": 60,
+      "train_loss": 7.244661736488342,
+      "val_loss": 6.416527581214905,
+      "lr": 0.0006,
+      "elapsed_s": 149.0
+    }
+  ]
+}

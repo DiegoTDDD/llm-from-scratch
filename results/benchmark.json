@@ -1,0 +1,38 @@
+{
+  "weights": "trained checkpoint",
+  "device": "cpu",
+  "threads": 2,
+  "torch": "2.9.1+cpu",
+  "prompt_tokens": 16,
+  "parameters": 4273664,
+  "rows": [
+    {
+      "new_tokens": 32,
+      "with_cache_tok_s": 549.9,
+      "without_cache_tok_s": 214.5,
+      "speedup": 2.56,
+      "identical_output": true
+    },
+    {
+      "new_tokens": 64,
+      "with_cache_tok_s": 560.0,
+      "without_cache_tok_s": 178.5,
+      "speedup": 3.14,
+      "identical_output": true
+    },
+    {
+      "new_tokens": 128,
+      "with_cache_tok_s": 547.7,
+      "without_cache_tok_s": 131.2,
+      "speedup": 4.18,
+      "identical_output": true
+    },
+    {
+      "new_tokens": 224,
+      "with_cache_tok_s": 533.9,
+      "without_cache_tok_s": 92.4,
+      "speedup": 5.78,
+      "identical_output": true
+    }
+  ]
+}
