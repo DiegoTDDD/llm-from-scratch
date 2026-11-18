@@ -29,7 +29,7 @@ log = logging.getLogger(__name__)
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "corpus.txt"
 MANIFEST = ROOT / "data" / "corpus_manifest.json"
-DEFAULT_IDENTITY = "llm-from-scratch DiegoTDDD@users.noreply.github.com"
+DEFAULT_IDENTITY = "Diego Andrade DiegoTDDD@users.noreply.github.com"
 TICKERS = [
     "AAPL", "MSFT", "NVDA", "AMZN", "GOOGL", "META", "TSLA", "JPM", "BAC", "WFC",
     "GS", "V", "MA", "JNJ", "PFE", "MRK", "UNH", "XOM", "CVX", "KO",
@@ -80,6 +80,8 @@ def main() -> None:
                                  "section": name, "chars": len(text)})
             log.info("%s %s: %d sections so far", ticker, filing.filing_date, len(manifest))
             time.sleep(0.2)  # stay well under SEC's 10 requests per second
+    if not parts:
+        raise SystemExit("No sections downloaded: check SEC_IDENTITY and network access to SEC")
     corpus = "\n\n".join(parts)
     OUT.write_text(corpus, encoding="utf-8")
     MANIFEST.write_text(json.dumps({"sections": manifest, "total_chars": len(corpus)}, indent=1),
