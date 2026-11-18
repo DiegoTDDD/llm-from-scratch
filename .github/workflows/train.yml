@@ -33,8 +33,12 @@ jobs:
         run: pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
       - name: Build the corpus from SEC EDGAR
         env:
-          SEC_IDENTITY: Diego Andrade DiegoTDDD@users.noreply.github.com
+          # SEC requires a real name and contact address; it is kept in a repository secret.
+          SEC_IDENTITY: ${{ secrets.SEC_IDENTITY }}
         run: |
+          if [ -z "$SEC_IDENTITY" ]; then
+            echo "::error::Set the SEC_IDENTITY repository secret (\"Your Name you@example.com\")"; exit 1
+          fi
           python scripts/prepare_corpus.py
           cp data/corpus_manifest.json results/corpus_manifest.json
       - name: Train

@@ -67,7 +67,8 @@ python scripts/train.py --max-minutes 60    # results/ and checkpoints/gpt_sec.p
 python scripts/benchmark.py                 # results/benchmark.md
 ```
 
-Or run the `train` workflow from the Actions tab: it builds the corpus, trains, benchmarks,
+Or run the `train` workflow from the Actions tab (it needs a `SEC_IDENTITY` repository secret
+with your name and email, which SEC requires of automated clients): it builds the corpus, trains, benchmarks,
 commits `results/` and publishes the checkpoint and tokenizer as a release.
 
 ## Limits
