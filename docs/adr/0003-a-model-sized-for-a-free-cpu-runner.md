@@ -1,4 +1,4 @@
-# ADR 0003: A ~3.5M-parameter model trained on a free GitHub Actions CPU runner
+# ADR 0003: A ~4.3M-parameter model trained on a free GitHub Actions CPU runner
 
 **Status:** accepted
 
@@ -8,7 +8,7 @@ jobs of up to 6 hours, and the run has to be reproducible by anyone who forks th
 
 ## Decision
 4 layers, 4 heads, width 256, context 256, vocabulary 4,096, tied input/output embeddings
-(about 3.5M parameters). AdamW with warmup and cosine decay, gradient clipping, dropout 0.1,
+(about 4.3M parameters). AdamW with warmup and cosine decay, gradient clipping, dropout 0.1,
 best-validation checkpointing. The `train` workflow builds the corpus, trains with a time
 budget, benchmarks, commits `results/` and attaches the checkpoint to a release.
 

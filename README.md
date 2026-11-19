@@ -33,7 +33,7 @@ SEC EDGAR 10-K sections ──► corpus.txt ──► BPE (4,096 tokens, traine
               token stream ──► 90% train / 10% validation (held-out tail)
                                               │
                                               ▼
-   GPT: 4 layers × 4 heads, width 256, context 256, tied embeddings (~3.5M parameters)
+   GPT: 4 layers × 4 heads, width 256, context 256, tied embeddings (~4.3M parameters)
    AdamW, warmup + cosine decay, grad clipping, best-validation checkpoint
                                               │
                                               ▼
@@ -43,15 +43,56 @@ SEC EDGAR 10-K sections ──► corpus.txt ──► BPE (4,096 tokens, traine
 ## Results
 
 <!-- RESULTS:START -->
-The first full training run is in progress on GitHub Actions; this section is filled from
-`results/metrics.json` and `results/benchmark.md` when it finishes.
+From training run [44395273109](https://github.com/DiegoTDDD/llm-from-scratch/actions/runs/44395273109)
+on a free GitHub runner, 2 PyTorch threads (1 h 58 min, 3,000 steps, 24.6M tokens seen). Full numbers in
+[`results/metrics.json`](results/metrics.json).
+
+| | |
+| --- | --- |
+| Corpus | 13.3M characters: Business, Risk Factors and MD&A of the two latest 10-Ks of 30 large US companies ([manifest](results/corpus_manifest.json)) |
+| Tokenizer | 4,096-token byte-level BPE, trained in 2.6 s; 4.29 characters per token; 3.09M tokens |
+| Model | 4.27M parameters (4 layers × 4 heads, width 256, context 256, tied embeddings) |
+| **Validation perplexity** | **32.0** (loss 3.47, best at step 2,700) vs **837** for a unigram baseline on the same tokens |
+| Bits per character | 1.17 on held-out text |
+| KV cache | 2.5× faster at 32 new tokens, **5.8× at 224**, identical tokens in every case |
+
+![Training and validation loss](results/loss_curve.png)
+
+Validation loss flattens after about step 2,200 while training loss keeps falling: at 4.3M
+parameters and 3M tokens the model is starting to memorise, and the best checkpoint is kept
+by validation loss, not taken from the last step.
+
+KV-cache benchmark ([`results/benchmark.md`](results/benchmark.md)), greedy decoding on 2 CPU threads:
+
+| New tokens | With cache (tok/s) | Without (tok/s) | Speed-up |
+| --- | --- | --- | --- |
+| 32 | 542 | 218 | 2.49× |
+| 64 | 553 | 180 | 3.08× |
+| 128 | 545 | 132 | 4.12× |
+| 224 | 538 | 93 | 5.78× |
+
+With the cache the speed stays flat as the text grows; without it every new token recomputes
+the whole prefix.
+
+Samples ([`results/samples.md`](results/samples.md), 60 tokens, fixed seed). The model has
+learned the register of a 10-K; it has not learned facts, and greedy decoding shows the classic
+repetition loop that sampling avoids:
+
+> **top-p 0.9:** Our business is subject to risks that are substantial and risks related to
+> intellectual property, including claims that are outside of the United States. These claims
+> have been developed and may lead to significant technical compliance costs…
+
+> **greedy:** Interest rates, interest rates, interest rates, interest rates, …
+
+The best checkpoint and the tokenizer are attached to the
+[release](https://github.com/DiegoTDDD/llm-from-scratch/releases/tag/model-44395273109).
 <!-- RESULTS:END -->
 
 ## Design decisions
 
 - [ADR 0001](docs/adr/0001-attention-written-by-hand.md): attention written by hand instead of the fused PyTorch kernel, so the mask can be tested.
 - [ADR 0002](docs/adr/0002-byte-level-bpe.md): byte-level BPE with incremental pair counts (11M characters in ~17 s, pure Python).
-- [ADR 0003](docs/adr/0003-a-model-sized-for-a-free-cpu-runner.md): a ~3.5M-parameter model sized for a free 4-core runner.
+- [ADR 0003](docs/adr/0003-a-model-sized-for-a-free-cpu-runner.md): a ~4.3M-parameter model sized for a free 4-core runner.
 - [ADR 0004](docs/adr/0004-kv-cache.md): KV cache, verified against full recomputation and benchmarked.
 
 ## Run it
@@ -73,7 +114,7 @@ commits `results/` and publishes the checkpoint and tokenizer as a release.
 
 ## Limits
 
-- At ~3.5M parameters and a few hours of CPU, the model writes fluent-looking 10-K prose, not
+- At ~4.3M parameters and a few hours of CPU, the model writes fluent-looking 10-K prose, not
   facts. It is a study of the mechanism, not an assistant.
 - No sliding window: generation stops at the 256-token context.
 - Attention is O(T²) and unfused; fine at this size, the first thing to replace at scale.
